@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: 9f159a51c806b95439c41d1fbb936ef8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4485220127137340590
+    second: TTitems 2_0
+  - first:
+      213: -2844409754616150823
+    second: TTitems 2_1
+  - first:
+      213: 9062337523128605511
+    second: TTitems 2_3
+  - first:
+      213: 6177227926972469014
+    second: TTitems 2_4
+  - first:
+      213: -3875699125625527470
+    second: TTitems 2_5
+  - first:
+      213: -5787050421555110457
+    second: TTitems 2_6
+  - first:
+      213: 6227281193688202746
+    second: TTitems 2_7
+  - first:
+      213: -1699547567799249612
+    second: TTitems 2_8
+  - first:
+      213: -1228294246587560808
+    second: TTitems 2_9
+  - first:
+      213: 681690855264597025
+    second: TTitems 2_10
+  - first:
+      213: 3401080337297665208
+    second: TTitems 2_11
+  - first:
+      213: 5896678598769031344
+    second: TTitems 2_12
+  - first:
+      213: -8467562830400338615
+    second: TTitems 2_2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TTitems 2_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 597
+        width: 91
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482bd86d1bb5eb44d98338387fe213d3
+      internalID: 4485220127137340590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 605
+        width: 210
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 15, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d95e60b21882e445aa4663e98fea963
+      internalID: -2844409754616150823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_3
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 740
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220b9a4885791194683fd1acf65c7c2c
+      internalID: 9062337523128605511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 428
+        width: 138
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 18, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4408d4e4748263848b57a3c8dfd89aac
+      internalID: 6177227926972469014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 430
+        width: 148
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 11, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fa680cdd06de040800337f729e4a25
+      internalID: -3875699125625527470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 409
+        width: 103
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100765a805dbf164b942dfe46c9aeb62
+      internalID: -5787050421555110457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 243
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7fee5d800a968438687ef2a56f9173
+      internalID: 6227281193688202746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 246
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046136fb33f364e49b1f87c674c0a4ab
+      internalID: -1699547567799249612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 246
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a0ee58ebdfb314cbfe1196d973e9b2
+      internalID: -1228294246587560808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 243
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a031ee3a7479164cb8dfa0c9bc95f3e
+      internalID: 681690855264597025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 243
+        width: 103
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d64af28c8f8dc4aa3e61b65a373517
+      internalID: 3401080337297665208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_12
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 316
+        width: 17
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78617c8be60569142b3072ca52527fc5
+      internalID: 5896678598769031344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TTitems 2_2
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 607
+        width: 210
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 15, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f955d307aad3f44aaf07f38cf8692a9
+      internalID: -8467562830400338615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
