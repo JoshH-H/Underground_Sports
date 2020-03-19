@@ -2,13 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CaberRun : MonoBehaviour
 {
 
     public float HorizontalMoveSpeed = 0.01f;
     public bool canMove = true;
+    public Vector3 startPosition;
     
+    /*private void Awake()
+    {
+        startPosition = transform.position;
+    }*/
     void Update()
     {
         if (canMove == true)
@@ -28,15 +34,12 @@ public class CaberRun : MonoBehaviour
         }
     }
     
-    /*private void OnTriggerEnter2D(Collider2D other)
+    public void Retry()
     {
-        Freezer();
-        Debug.Log("slowed");
+        Scene loadedLevel = SceneManager.GetActiveScene ();
+        SceneManager.LoadScene (loadedLevel.buildIndex);
+        /*transform.position = startPosition;*/
     }
+    
 
-    void Freezer()
-    {
-        HorizontalMoveSpeed = 0.00000000f;
-        //sets character movement to 0
-    }*/
 }

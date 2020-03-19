@@ -1,4 +1,5 @@
-﻿using System.Collections;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,8 +11,12 @@ public class ThrowIt : MonoBehaviour
     public float speed = 2.0f;
     public float waiting = 5.0f;
     public bool repeat;
+
+    private void Awake()
+    {
+        repeat = true;
+    }
     
-    // Start is called before the first frame update
     IEnumerator Start()
     {
         while (repeat)
