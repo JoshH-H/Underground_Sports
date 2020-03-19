@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: b6f452b1f325af84983e6ef9d94cbc8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8082675309300861797
+    second: PJitems_0
+  - first:
+      213: -6894813040629222110
+    second: PJitems_1
+  - first:
+      213: 3066739659797156482
+    second: PJitems_2
+  - first:
+      213: -748488324844732947
+    second: PJitems_3
+  - first:
+      213: -5453705527211220531
+    second: PJitems_4
+  - first:
+      213: 9066164477785433721
+    second: PJitems_5
+  - first:
+      213: -2858453080870064003
+    second: PJitems_6
+  - first:
+      213: 5048371647631227747
+    second: PJitems_7
+  - first:
+      213: -911775901292523133
+    second: PJitems_8
+  - first:
+      213: 6276695383869246557
+    second: PJitems_9
+  - first:
+      213: 7039877267230707625
+    second: PJitems_10
+  - first:
+      213: 7313893473307358946
+    second: PJitems_11
+  - first:
+      213: 1018906676861503894
+    second: PJitems_12
+  - first:
+      213: -1453815411042015155
+    second: PJitems_13
+  - first:
+      213: 7189437590027159870
+    second: PJitems_14
+  - first:
+      213: -738063436763323614
+    second: PJitems_15
+  - first:
+      213: 7692371789719810320
+    second: PJitems_16
+  - first:
+      213: 7630517572797932046
+    second: PJitems_17
+  - first:
+      213: 5486597241173832640
+    second: PJitems_18
+  - first:
+      213: 6800762359989124260
+    second: PJitems_19
+  - first:
+      213: 4455920438734662182
+    second: PJitems_20
+  - first:
+      213: -8567185771669051453
+    second: PJitems_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PJitems_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 632
+        width: 96
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9cbc3ff4110f04a9ae583de0f5c273
+      internalID: 8082675309300861797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 631
+        width: 84
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e844a5d00cc63384089466b23c32881b
+      internalID: -6894813040629222110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 631
+        width: 97
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee87c8f84861a71468a15d9f4269f166
+      internalID: 3066739659797156482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 612
+        width: 100
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9dfeaa99879db408c7e136de9ca662
+      internalID: -748488324844732947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 668
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2aae010bf20dd8448e5e0d96dc5c444
+      internalID: -5453705527211220531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_5
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 641
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81318901638672a4783722a6a8a7e5d3
+      internalID: 9066164477785433721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_6
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 639
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5983f2ff701bb524fb965b61908daa1d
+      internalID: -2858453080870064003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_7
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 637
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75291925635d5574982ddef443e983f0
+      internalID: 5048371647631227747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_8
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 673
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c6bb1a8e913e8449b5127533b2382b
+      internalID: -911775901292523133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_9
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 633
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a01b68a5d708ed4086d04101cd735f4
+      internalID: 6276695383869246557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_10
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 649
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb18ad034ab02d747b4c38d32ead06df
+      internalID: 7039877267230707625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_11
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 648
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18a5f83e3b8eef47ba40afbc06109a9
+      internalID: 7313893473307358946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_12
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 609
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ee7be46f30dc244a372ab9e18dab73
+      internalID: 1018906676861503894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 406
+        width: 108
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cf0c992ac691049a9eb8e419649d36
+      internalID: -1453815411042015155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 416
+        width: 101
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df594387f1ed9474d90a89ce2293174e
+      internalID: 7189437590027159870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_15
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 427
+        width: 88
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1167f2effe86e2841aa0db7aafbfe170
+      internalID: -738063436763323614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_16
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 409
+        width: 103
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360e336d1d3d31040a10557e79d55875
+      internalID: 7692371789719810320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_17
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 409
+        width: 103
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eea37976ddf052438d62a3b281afdb3
+      internalID: 7630517572797932046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 243
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00474fbf6a5d82848813262832f94a3d
+      internalID: 5486597241173832640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 246
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3970206abb5bcce4fa696eb9490888e8
+      internalID: 6800762359989124260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 246
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee73f2fc1fc4aff42baafd67b8fadb78
+      internalID: 4455920438734662182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJitems_21
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 243
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39622164a1585d44ea61e29820c804ad
+      internalID: -8567185771669051453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
