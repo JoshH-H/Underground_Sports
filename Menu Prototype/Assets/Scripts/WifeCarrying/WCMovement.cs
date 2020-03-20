@@ -64,7 +64,7 @@ public class WCMovement : MonoBehaviour
         {
             InWater = true;
             Speed = 2;
-        } 
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -88,4 +88,3 @@ public class WCMovement : MonoBehaviour
         }
     }
 }
-

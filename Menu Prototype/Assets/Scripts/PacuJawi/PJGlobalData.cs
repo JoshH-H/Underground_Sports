@@ -40,7 +40,7 @@ public class PJGlobalData : MonoBehaviour
 
     public void InstructionsComplete()
     {
-        Instructions.SetActive(false);                
+        Instructions.SetActive(false);
         CountDownAnimation.SetActive(true);
 
         StartCoroutine(ActivateMovement());

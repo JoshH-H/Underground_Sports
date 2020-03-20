@@ -11,8 +11,8 @@ public class WCGoal : MonoBehaviour
 
     private void Start()
     {
-/*        GoalWindow.SetActive(false);
-        LostWindow.SetActive()*/
+        /*        GoalWindow.SetActive(false);
+                LostWindow.SetActive()*/
         Animation = Player.GetComponent<Animator>();
     }
 

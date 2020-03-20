@@ -41,15 +41,15 @@ public class PacuJawiMovement : MonoBehaviour
 
     void Update()
     {
-       if (Input.GetKey(KeyCode.UpArrow) && activateMovement == true)
-       {
+        if (Input.GetKey(KeyCode.UpArrow) && activateMovement == true)
+        {
             transform.position += Vector3.up * VerticalMoveSpeed;
-       }
+        }
 
-       if (Input.GetKey(KeyCode.DownArrow) && activateMovement == true)
-       {
+        if (Input.GetKey(KeyCode.DownArrow) && activateMovement == true)
+        {
             transform.position += Vector3.down * VerticalMoveSpeed;
-       }
+        }
     }
 
     private IEnumerator BoostRoutine()
@@ -84,9 +84,9 @@ public class PacuJawiMovement : MonoBehaviour
             Animation.SetBool("Hurting", false);
         }
 
-/*        else
-        {
-            Animation.SetBool("Moving", true);
-        }*/
+        /*        else
+                {
+                    Animation.SetBool("Moving", true);
+                }*/
     }
 }

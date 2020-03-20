@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class WCGroundCheck : MonoBehaviour
 {
-    public GameObject Ground;
-    public GameObject Player;
+/*    public GameObject Ground;
+    public GameObject Player;*/
 
 /*    private void OnTriggerStay2D(Collider2D collision)
     {

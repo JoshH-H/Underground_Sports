@@ -26,8 +26,8 @@ public class WCAI : MonoBehaviour
     private void FixedUpdate()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = direction * Speed;  
-        
+        rb.velocity = direction * Speed;
+
         if (Speed == 0)
         {
             Animation.SetBool("Running", false);
@@ -58,7 +58,7 @@ public class WCAI : MonoBehaviour
             Animation.SetBool("Jumping", true);
             yield return new WaitForSeconds(0.3f);
             Animation.SetBool("Jumping", false);
-            
+
         }
 
         if (collision.gameObject == Obstacle2)
