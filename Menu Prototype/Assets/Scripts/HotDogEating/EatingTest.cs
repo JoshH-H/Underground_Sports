@@ -16,14 +16,26 @@ public class EatingTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             Animation.SetBool("Eat", true);
         }
 
-        else if (!Input.anyKey)
+        if (Input.GetKeyDown(KeyCode.S))
         {
+            Animation.SetBool("Drink", true);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Animation.SetBool("Burp", true);
+        }
+
+        if (!Input.anyKey)
+        {
+            Animation.SetBool("Drink", false);
             Animation.SetBool("Eat", false);
+            Animation.SetBool("Burp", false);
         }
     }
 }

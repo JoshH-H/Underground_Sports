@@ -1,52 +1,46 @@
 fileFormatVersion: 2
-guid: 8070c1b4510784f4092582ebeb5cb8e9
+guid: 42409a4145ba0b643b92de83c2463fef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7843973641713090758
-    second: HTDE_Character_0
+      213: 5324574030341803216
+    second: HTDE_Opponent3_0
   - first:
-      213: -4123231170588358487
-    second: HTDE_Character_1
+      213: -1498776776416441592
+    second: HTDE_Opponent3_1
   - first:
-      213: -3681986097568021936
-    second: HTDE_Character_2
+      213: -6249449188703595115
+    second: HTDE_Opponent3_2
   - first:
-      213: 8950703611426393857
-    second: HTDE_Character_3
+      213: 6822723393468265324
+    second: HTDE_Opponent3_3
   - first:
-      213: 7220759627225687027
-    second: HTDE_Character_4
+      213: -7415425326274557230
+    second: HTDE_Opponent3_4
   - first:
-      213: -501182347271378217
-    second: HTDE_Character_5
+      213: -162953343092217356
+    second: HTDE_Opponent3_5
   - first:
-      213: -7794704388145680350
-    second: HTDE_Character_6
+      213: 3658804816366400848
+    second: HTDE_Opponent3_6
   - first:
-      213: 3203791747926694803
-    second: HTDE_Character_7
+      213: 1546434605647850173
+    second: HTDE_Opponent3_7
   - first:
-      213: -10056662861422524
-    second: HTDE_Character_8
+      213: 1427035957769594138
+    second: HTDE_Opponent3_8
   - first:
-      213: 4113022099360145312
-    second: HTDE_Character_9
+      213: -5050885932528431989
+    second: HTDE_Opponent3_9
   - first:
-      213: -5390098777101303320
-    second: HTDE_Character_10
+      213: -4737838556327394216
+    second: HTDE_Opponent3_10
   - first:
-      213: 3444847100638339746
-    second: HTDE_Character_11
+      213: 7827182589409424491
+    second: HTDE_Opponent3_11
   - first:
-      213: 5061999821386958338
-    second: HTDE_Character_12
-  - first:
-      213: 6101169740369047524
-    second: HTDE_Character_13
-  - first:
-      213: 1636442999675656467
-    second: HTDE_Character_14
+      213: 876786590530353696
+    second: HTDE_Opponent3_12
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -131,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HTDE_Character_0
+      name: HTDE_Opponent3_0
       rect:
         serializedVersion: 2
         x: 82
         y: 1665
         width: 125
-        height: 239
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b83e41d926236044a90410827c3603a3
-      internalID: 7843973641713090758
+      spriteID: 79b83dbffbbb41a4197adb1f547eb458
+      internalID: 5324574030341803216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HTDE_Character_1
+      name: HTDE_Opponent3_1
       rect:
         serializedVersion: 2
         x: 296
         y: 1658
         width: 119
-        height: 239
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,14 +160,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d08d116d1000854c9289d209dc56536
-      internalID: -4123231170588358487
+      spriteID: 904101841ec240a44a8589e3ef898e61
+      internalID: -1498776776416441592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HTDE_Character_2
+      name: HTDE_Opponent3_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1624
+        width: 64
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090c54d456a47124f8c27a69220a3ba0
+      internalID: -6249449188703595115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HTDE_Opponent3_3
       rect:
         serializedVersion: 2
         x: 43
@@ -187,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46e91264a32b3b449be8006a46cda151
-      internalID: -3681986097568021936
+      spriteID: 2d9195a87c1f2884c89fbbdef980fe1d
+      internalID: 6822723393468265324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HTDE_Character_3
+      name: HTDE_Opponent3_4
       rect:
         serializedVersion: 2
         x: 94
         y: 1308
         width: 102
-        height: 239
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e103f7f13e1d8ca498b0ea6a0493f999
-      internalID: 8950703611426393857
+      spriteID: 1e0b71ba97eed9242b2c7556f1728369
+      internalID: -7415425326274557230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HTDE_Character_4
+      name: HTDE_Opponent3_5
       rect:
         serializedVersion: 2
         x: 260
@@ -229,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91b12d7f2a39e944b9e443dc24a18100
-      internalID: 7220759627225687027
+      spriteID: 1ce207f1e744aa44f83e9bcf4187f59a
+      internalID: -162953343092217356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HTDE_Character_5
+      name: HTDE_Opponent3_6
       rect:
         serializedVersion: 2
         x: 457
         y: 1308
         width: 102
-        height: 239
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b355009b2962214fbd9b17e5030ffb1
-      internalID: -501182347271378217
+      spriteID: 77bfe18c99d1a7844902aa8ce2470f1b
+      internalID: 3658804816366400848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HTDE_Character_6
+      name: HTDE_Opponent3_7
       rect:
         serializedVersion: 2
         x: 651
@@ -271,20 +286,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ce52684eeb98b54bb42c243f7a0a644
-      internalID: -7794704388145680350
+      spriteID: dec58cf0d27bbaa47a2d63f628e8937d
+      internalID: 1546434605647850173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HTDE_Character_7
+      name: HTDE_Opponent3_8
       rect:
         serializedVersion: 2
         x: 66
         y: 1013
         width: 151
-        height: 239
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +307,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2013f62eb6f52ba4189060399889017a
-      internalID: 3203791747926694803
+      spriteID: e67166538fc1f624da355e28e7c8eb4d
+      internalID: 1427035957769594138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HTDE_Character_8
+      name: HTDE_Opponent3_9
       rect:
         serializedVersion: 2
-        x: 43
+        x: 48
         y: 682
         width: 145
-        height: 239
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,103 +328,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9aa947b461213a4183df15994705223
-      internalID: -10056662861422524
+      spriteID: ad5aa2fb41ff31546b3dc82f6f725b42
+      internalID: -5050885932528431989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HTDE_Character_9
+      name: HTDE_Opponent3_10
       rect:
         serializedVersion: 2
-        x: 313
-        y: 682
+        x: 328
+        y: 679
         width: 148
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f49782ee9689c04285a4a13a23ce1fc
-      internalID: 4113022099360145312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HTDE_Character_10
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 684
-        width: 112
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7f146cdea32d6e4bba3646d24574e0c
-      internalID: -5390098777101303320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HTDE_Character_11
-      rect:
-        serializedVersion: 2
-        x: 863
-        y: 676
-        width: 110
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53e42ccd20527594ca1b8ff1b1649582
-      internalID: 3444847100638339746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HTDE_Character_12
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 316
-        width: 87
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d0dc281de6b37f4c82821e406f7ef3a
-      internalID: 5061999821386958338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HTDE_Character_13
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 317
-        width: 87
         height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -418,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0040274523fdef940b591ea3cd5bc879
-      internalID: 6101169740369047524
+      spriteID: 2cd7f2c212f8c754c9327c9ae940e419
+      internalID: -4737838556327394216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HTDE_Character_14
+      name: HTDE_Opponent3_11
       rect:
         serializedVersion: 2
-        x: 503
-        y: 318
-        width: 88
-        height: 237
+        x: 607
+        y: 685
+        width: 112
+        height: 239
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,8 +370,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 288dc21f805e23e488a366eae5d8c71a
-      internalID: 1636442999675656467
+      spriteID: 2b77c93869c7bc040ac4bd9a89bfa529
+      internalID: 7827182589409424491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HTDE_Opponent3_12
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 676
+        width: 110
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc6217c31c9dde47bd338fcb226391a
+      internalID: 876786590530353696
       vertices: []
       indices: 
       edges: []
