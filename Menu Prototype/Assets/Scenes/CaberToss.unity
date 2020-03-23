@@ -3679,6 +3679,7 @@ MonoBehaviour:
   friction: 1
   lerpSpeed: 10
   torque: 5
+  player: {fileID: 35345575}
   caber: {fileID: 1797557439}
   throwforce: 15
   powerMultiplier: 11
@@ -5192,6 +5193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767437410279715769, guid: d6f3fb146b914e24fa3a67b3810d4c5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7454273004659824017, guid: d6f3fb146b914e24fa3a67b3810d4c5e,
         type: 3}

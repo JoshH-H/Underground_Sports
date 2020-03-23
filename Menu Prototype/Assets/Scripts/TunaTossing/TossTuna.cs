@@ -31,19 +31,18 @@ public class TossTuna : MonoBehaviour
         _tunaRb = GetComponent<Rigidbody2D>();
         rend = this.gameObject.GetComponent<SpriteRenderer>();
         rend.enabled = false;
-        
-        //StartCoroutine("showBar");
+        StartCoroutine("showBar");
     }
-    /*IEnumerator showBar()
+    IEnumerator showBar()
     {
         yield return new WaitForSeconds(3);
         meterBar.SetActive(true);
         
-    }*/
+    }
 
     public void Launch()
     {
-        tuna.SetActive(true);
+        rend.enabled = true;
         throwforce = fillImage.fillAmount * powerMultiplier;
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(transform.localScale.x, 1) * throwforce;
 

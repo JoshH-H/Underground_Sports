@@ -17,6 +17,7 @@ public class CaberController : MonoBehaviour
     private Quaternion _toRotation;
 
     //public float rotateSpeed;
+    public GameObject player;
     public GameObject caber;
     private Rigidbody2D _caberRb;
     public float throwforce;

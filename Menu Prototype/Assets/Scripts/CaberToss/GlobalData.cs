@@ -8,8 +8,6 @@ public class GlobalData : MonoBehaviour
 {
     static public int Scoring;
     public GameObject player;
-    /*static public int Lives = 3;
-    public GameObject[] pLives;*/
     
     public Text scoreText;
     public Text scoreText2;
@@ -20,8 +18,6 @@ public class GlobalData : MonoBehaviour
     {
         SetDistance();
         Scoring = 0;
-        /*Lives = 3;*/
-
         Instructions.SetActive(true);
         CountDownAnimation.SetActive(false);
         player.GetComponent<CaberRun>().enabled = false;
@@ -46,22 +42,4 @@ public class GlobalData : MonoBehaviour
         player.GetComponent<CaberRun>().enabled = true;
     }
 
-    /*public void UpdateLives()
-    {
-        for (int i = 0; i < pLives.Length; i++)
-        {
-            if (Lives > i)
-            {
-                pLives[i].SetActive(true);
-            }
-            else
-            {
-                pLives[i].SetActive(false);
-            }
-        }
-        if (Lives <= 0)
-        {
-            //EndGame();
-        }
-    }*/
 }
