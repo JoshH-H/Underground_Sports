@@ -10,6 +10,8 @@ public class CaberRun : MonoBehaviour
     public float HorizontalMoveSpeed = 0.01f;
     public bool canMove = true;
     public Vector3 startPosition;
+
+    private Animator Animation;
     
     /*private void Awake()
     {
@@ -25,6 +27,8 @@ public class CaberRun : MonoBehaviour
                 //character movement
             }
         }
+
+        StartCoroutine (Animations());
     }
 
     void OnTriggerEnter2D(Collider2D collision){
@@ -40,6 +44,28 @@ public class CaberRun : MonoBehaviour
         SceneManager.LoadScene (loadedLevel.buildIndex);
         /*transform.position = startPosition;*/
     }
-    
+
+    public IEnumerator Animations()
+    {
+        Animation = GetComponent<Animator>();
+
+        if (Input.anyKey)
+        {
+            Animation.SetBool("Moving", true);
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Animation.SetBool("Tossed", true);
+            yield return new WaitForSeconds(2);
+            Animation.SetBool("Relax", true);
+        }
+
+        if (!Input.anyKey)
+        {
+            Animation.SetBool("Moving", false);
+        }
+    }
+
 
 }
