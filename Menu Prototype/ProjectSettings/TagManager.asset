@@ -6,11 +6,11 @@ TagManager:
   tags:
   - logo
   - Obstacle
-
   - StopMoving
   - Caber
   - ScoreZone
   - CaberBody
+  - Fish
   layers:
   - Default
   - TransparentFX
