@@ -1798,7 +1798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 7
-  distance: {fileID: 2029225229}
+  distance: {fileID: 1602983172}
 --- !u!61 &697529073
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2012,7 +2012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 10
-  distance: {fileID: 2029225229}
+  distance: {fileID: 646939502}
 --- !u!61 &867129953
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3297,7 +3297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 4
-  distance: {fileID: 2029225229}
+  distance: {fileID: 354224586}
 --- !u!61 &1548095446
 BoxCollider2D:
   m_ObjectHideFlags: 0
