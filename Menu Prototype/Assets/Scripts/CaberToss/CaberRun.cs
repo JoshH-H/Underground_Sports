@@ -21,7 +21,7 @@ public class CaberRun : MonoBehaviour
     {
         if (canMove == true)
         {
-            if (Input.GetKey(KeyCode.RightArrow))
+            if (Input.GetKey(KeyCode.D))
             {
                 transform.position += Vector3.right * HorizontalMoveSpeed;
                 //character movement
@@ -32,8 +32,9 @@ public class CaberRun : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D collision){
-        if(collision.gameObject.tag == ("StopMoving")){
-            canMove = false;
+        if(collision.gameObject.tag == ("StopMoving"))
+        {
+            HorizontalMoveSpeed = 0f;
             Debug.Log("hti");
         }
     }
