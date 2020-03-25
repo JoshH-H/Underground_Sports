@@ -11,6 +11,7 @@ TagManager:
   - ScoreZone
   - CaberBody
   - Fish
+  - scotland
   layers:
   - Default
   - TransparentFX
