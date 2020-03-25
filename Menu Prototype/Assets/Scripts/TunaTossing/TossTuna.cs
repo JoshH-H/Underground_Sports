@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,8 +15,10 @@ public class TossTuna : MonoBehaviour
     private float _yDegrees;
     private Quaternion _fromRotation;
     private Quaternion _toRotation;
+    private Animator Animation;
 
     //public float rotateSpeed;
+    public GameObject Char;
     public GameObject tuna;
     private Rigidbody2D _tunaRb;
     public float throwforce;
@@ -27,17 +30,32 @@ public class TossTuna : MonoBehaviour
 
     void Start()
     {
-        meterBar.SetActive(false);
+        Animation = Char.GetComponent<Animator>();
+        meterBar.SetActive(false); 
         _tunaRb = GetComponent<Rigidbody2D>();
         rend = this.gameObject.GetComponent<SpriteRenderer>();
         rend.enabled = false;
-        StartCoroutine("showBar");
     }
-    IEnumerator showBar()
+    
+    private void Update()
     {
-        yield return new WaitForSeconds(3);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Animation.SetBool("Spin", true);
+            StartCoroutine("spin");
+        }
+
+        if (!Input.anyKey)
+        { 
+            Animation.SetBool("Spin", false);
+            meterBar.SetActive(false);
+        }
+    }
+
+    IEnumerator spin()
+    {
+        yield return new WaitForSeconds(5);
         meterBar.SetActive(true);
-        
     }
 
     public void Launch()
@@ -46,31 +64,24 @@ public class TossTuna : MonoBehaviour
         throwforce = fillImage.fillAmount * powerMultiplier;
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(transform.localScale.x, 1) * throwforce;
 
-        _tunaRb.AddForce (new Vector3(15, 15, 0));
+        _tunaRb.AddForce(new Vector3(15, 15, 0));
         _fromRotation = transform.rotation;
-        _toRotation = Quaternion.Euler(_xDegrees,_yDegrees, 0);
-        transform.rotation = Quaternion.Lerp(_fromRotation, _toRotation, Time.deltaTime*lerpSpeed);
+        _toRotation = Quaternion.Euler(_xDegrees, _yDegrees, 0);
+        transform.rotation = Quaternion.Lerp(_fromRotation, _toRotation, Time.deltaTime * lerpSpeed);
         // transform.Rotate (rotateSpeed,0,0);
         meterBar.SetActive(false);
         barActivator.SetActive(false);
         holder.SetActive(false);
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == ("StopMoving"))
-        {
-            meterBar.SetActive(true);
-
-            Debug.Log("wehit");
-        }
-    }
-
-    /*private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == ("StopMoving"))
-        {
-            meterBar.SetActive(false);
-        }
-    }*/
 }
+/*private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (collision.gameObject.tag == ("StopMoving"))
+    {
+        meterBar.SetActive(true);
+
+        Debug.Log("wehit");
+    }
+}*/
+
+

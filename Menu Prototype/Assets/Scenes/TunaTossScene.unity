@@ -1160,6 +1160,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &641943514 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6064616790137227490, guid: 4257bb962d4bf484d8b827b7023d3e16,
+    type: 3}
+  m_PrefabInstance: {fileID: 2535244850140957706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &699429272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,6 +1281,7 @@ MonoBehaviour:
   friction: 30
   lerpSpeed: 40
   torque: 10
+  Char: {fileID: 641943514}
   tuna: {fileID: 760802586}
   throwforce: 30
   powerMultiplier: 20
