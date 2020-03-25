@@ -7,10 +7,12 @@ public class EatingTest : MonoBehaviour
     public GameObject Player;
     private Animator Animation;
 
+
     // Start is called before the first frame update
     void Start()
     {
         Animation = Player.GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
