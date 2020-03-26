@@ -6,29 +6,30 @@ using UnityEngine.SceneManagement;
 
 public class CaberRun : MonoBehaviour
 {
-
-    public float HorizontalMoveSpeed = 0.01f;
+    private float HorizontalMoveSpeed = 0.01f;
     public bool canMove = true;
     public Vector3 startPosition;
 
     private Animator Animation;
-    
-    /*private void Awake()
+
+     void Start()
     {
-        startPosition = transform.position;
-    }*/
+
+    }
+
     void Update()
     {
-        if (canMove == true)
-        {
-            if (Input.GetKey(KeyCode.D))
-            {
-                transform.position += Vector3.right * HorizontalMoveSpeed;
-                //character movement
-            }
-        }
-
+        movement();
         StartCoroutine (Animations());
+    }
+
+    void movement()
+    {
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.position += Vector3.right * HorizontalMoveSpeed;
+            //character movement
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision){
@@ -37,6 +38,7 @@ public class CaberRun : MonoBehaviour
             HorizontalMoveSpeed = 0f;
             Debug.Log("hti");
         }
+        Debug.Log("smash");
     }
     
 
@@ -61,10 +63,5 @@ public class CaberRun : MonoBehaviour
         {
             Animation.SetBool("Moving", false);
         }
-    }
-
-    public void Winner()
-    {
-        SceneManager.LoadScene ("LDScreen");
     }
 }

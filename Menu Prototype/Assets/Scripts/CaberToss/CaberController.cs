@@ -26,19 +26,13 @@ public class CaberController : MonoBehaviour
     public GameObject MeterBar;
     public GameObject Holder;
     public GameObject BarActivator;
+    public GameObject Upholder;
 
     void Start()
     {
         _caberRb = GetComponent<Rigidbody2D>();
         MeterBar.SetActive(false);
     }
-
-    /*
-    void FixedUpdate()
-    {
-        float turn = Input.GetAxis("Horizontal");
-        _caberRb.AddTorque(transform.up * torque * turn);
-    }*/
 
     public void Launch()
     {
@@ -52,6 +46,7 @@ public class CaberController : MonoBehaviour
         // transform.Rotate (rotateSpeed,0,0);
         MeterBar.SetActive(false);
         BarActivator.SetActive(false);
+        Upholder.SetActive(false);
     }
 
 
@@ -62,7 +57,6 @@ public class CaberController : MonoBehaviour
         {
             MeterBar.SetActive(true);
             Holder.SetActive(false);
-            Debug.Log("wehit");
         }
     }
 

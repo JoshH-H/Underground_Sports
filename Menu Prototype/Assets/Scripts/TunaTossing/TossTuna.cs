@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class TossTuna : MonoBehaviour
 {
     private SpriteRenderer rend;
+    private Rigidbody2D _tunaRb;
     public int speed;
     public float friction;
     public float lerpSpeed;
@@ -16,11 +17,11 @@ public class TossTuna : MonoBehaviour
     private Quaternion _fromRotation;
     private Quaternion _toRotation;
     private Animator Animation;
+    private Animator Animation1;
 
     //public float rotateSpeed;
     public GameObject Char;
     public GameObject tuna;
-    private Rigidbody2D _tunaRb;
     public float throwforce;
     public int powerMultiplier = 100;
     public Image fillImage;
@@ -32,12 +33,12 @@ public class TossTuna : MonoBehaviour
     void Start()
     {
         Animation = Char.GetComponent<Animator>();
-        meterBar.SetActive(false); 
+        Animation1 = meterBar.GetComponent<Animator>();
         _tunaRb = GetComponent<Rigidbody2D>();
         rend = this.gameObject.GetComponent<SpriteRenderer>();
         rend.enabled = false;
     }
-    
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -47,16 +48,16 @@ public class TossTuna : MonoBehaviour
         }
 
         if (!Input.anyKey)
-        { 
+        {
             Animation.SetBool("Spin", false);
-            meterBar.SetActive(false);
+            Animation1.SetInteger("Begin", 2);
         }
     }
 
     IEnumerator spin()
     {
-        yield return new WaitForSeconds(3);
-        meterBar.SetActive(true);
+        yield return new WaitForSeconds(2);
+        Animation1.SetInteger("Begin", 1);
     }
 
     public void Launch()
@@ -69,9 +70,8 @@ public class TossTuna : MonoBehaviour
         _fromRotation = transform.rotation;
         _toRotation = Quaternion.Euler(_xDegrees, _yDegrees, 0);
         transform.rotation = Quaternion.Lerp(_fromRotation, _toRotation, Time.deltaTime * lerpSpeed);
-        // transform.Rotate (rotateSpeed,0,0);
-        meterBar.SetActive(false);
         barActivator.SetActive(false);
+        meterBar.SetActive(false);
         holder.SetActive(false);
     }
     
