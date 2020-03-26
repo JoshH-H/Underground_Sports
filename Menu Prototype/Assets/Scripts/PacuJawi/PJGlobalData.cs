@@ -68,6 +68,7 @@ public class PJGlobalData : MonoBehaviour
     public void GameOverScene()
     {
         GameOver.SetActive(true);
+        Goal.SetActive(false);
         Timer.enabled = false;
 
         Animation = Driver.GetComponent<Animator>();
