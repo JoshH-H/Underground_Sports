@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: a06f04721ad36ec4b8c617b1e9a707d5
+guid: 3a516515b16426a46a2521e6911675b9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7886183115270296494
-    second: Seagul_0
+      213: 7308863574390655999
+    second: Americans_0
   - first:
-      213: 3159721399025240441
-    second: Seagul_1
-  - first:
-      213: 8594305946147300543
-    second: Seagul_2
-  - first:
-      213: -2849189438670977913
-    second: Seagul_3
+      213: -4091822642778944163
+    second: Americans_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,13 +92,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Seagul_0
+      name: Americans_0
       rect:
         serializedVersion: 2
-        x: 150
-        y: 573
-        width: 328
-        height: 170
+        x: 22
+        y: 98
+        width: 446
+        height: 594
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +106,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ba8f20dcf35fc3468f1979a7fdd94e8
-      internalID: 7886183115270296494
+      spriteID: 39e2afd80c985404fa89c1ee9c6d20dd
+      internalID: 7308863574390655999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seagul_1
+      name: Americans_1
       rect:
         serializedVersion: 2
-        x: 533
-        y: 573
-        width: 328
-        height: 130
+        x: 518
+        y: 98
+        width: 446
+        height: 594
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,50 +127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439d7c16f0b307d43a6532cf231d9fc8
-      internalID: 3159721399025240441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Seagul_2
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 352
-        width: 331
-        height: 106
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01449b5a97ae4a348bc8835c7df525ea
-      internalID: 8594305946147300543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Seagul_3
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 309
-        width: 334
-        height: 149
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3695ea46a2207114db0d20ba7c6a417f
-      internalID: -2849189438670977913
+      spriteID: d0826d40b59ea1c48b5c3a0c8a98ff3b
+      internalID: -4091822642778944163
       vertices: []
       indices: 
       edges: []
