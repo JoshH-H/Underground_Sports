@@ -39,12 +39,7 @@ public class CaberRun : MonoBehaviour
         }
     }
     
-    public void Retry()
-    {
-        Scene loadedLevel = SceneManager.GetActiveScene ();
-        SceneManager.LoadScene (loadedLevel.buildIndex);
-        /*transform.position = startPosition;*/
-    }
+
 
     public IEnumerator Animations()
     {
@@ -68,5 +63,8 @@ public class CaberRun : MonoBehaviour
         }
     }
 
-
+    public void Winner()
+    {
+        SceneManager.LoadScene ("LDScreen");
+    }
 }

@@ -27,6 +27,7 @@ public class TossTuna : MonoBehaviour
     public GameObject meterBar;
     public GameObject holder;
     public GameObject barActivator;
+    public GameObject gameOver;
 
     void Start()
     {
@@ -54,7 +55,7 @@ public class TossTuna : MonoBehaviour
 
     IEnumerator spin()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(3);
         meterBar.SetActive(true);
     }
 
@@ -73,15 +74,14 @@ public class TossTuna : MonoBehaviour
         barActivator.SetActive(false);
         holder.SetActive(false);
     }
-}
-/*private void OnTriggerEnter2D(Collider2D collision)
-{
-    if (collision.gameObject.tag == ("StopMoving"))
+    
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        meterBar.SetActive(true);
-
-        Debug.Log("wehit");
+        if (collision.gameObject.tag == ("Seagull"))
+        {
+            gameOver.SetActive(true);
+            Time.timeScale = 0f;
+            
+        }
     }
-}*/
-
-
+}

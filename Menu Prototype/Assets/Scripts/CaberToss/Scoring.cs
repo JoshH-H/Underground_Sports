@@ -20,5 +20,4 @@ public class Scoring : MonoBehaviour
             GameObject.Find("GameBoss").GetComponent<GlobalData>().UpdateLives();*/
         }
     }
-    
 }

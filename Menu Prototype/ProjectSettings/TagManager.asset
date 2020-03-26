@@ -12,6 +12,7 @@ TagManager:
   - CaberBody
   - Fish
   - scotland
+  - Seagull
   layers:
   - Default
   - TransparentFX
