@@ -43,5 +43,6 @@ public class TTGlobalData : MonoBehaviour
         yield return new WaitForSeconds(4);
         player.GetComponent<TossTuna>().enabled = true;
     }
-
+    
+    
 }

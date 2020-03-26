@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class TunaScoring : MonoBehaviour
 {
-    public int value = 0;
     public GameObject distance;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -14,9 +13,9 @@ public class TunaScoring : MonoBehaviour
         if (collision.gameObject.tag == "Fish")
         {
             distance.SetActive(true);
-            /*GlobalData.Lives--;
-            GameObject.Find("GameBoss").GetComponent<GlobalData>().UpdateLives();*/
         }
     }
-    
+
+/*GlobalData.Lives--;
+GameObject.Find("GameBoss").GetComponent<GlobalData>().UpdateLives();*/
 }
