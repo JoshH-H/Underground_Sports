@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WinAndRetry : MonoBehaviour
+public class WinAndRetryTT : MonoBehaviour
 {
     public void Retry()
     {
@@ -19,5 +19,9 @@ public class WinAndRetry : MonoBehaviour
     public void Return()
     {
         SceneManager.LoadScene("LDScreen");
+    }
+    public void WinLevel()
+    {
+        PlayerPrefs.SetInt("levelReached", 5);
     }
 }

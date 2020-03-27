@@ -1,0 +1,39 @@
+PJ-Rules
+Reach the end while remaining in control of the bulls
+Avoid areas of rice fields that can dusrupt the bulls
+Info, 
+Held every two months with four events lasting four days 
+Once was just a form of refertilising the fields, two farmers decided to see who could plough the fields the fastest and the sport was born
+At the end of every harvest the districts celebrates the conclusion with the sport
+With it being a form of entertainment for the locals, it also assists in rejuvinating the soil for next harvest
+The sport predates the Indonesian Independance, so no actual year of the sports conception
+
+TT-Rules
+Toss the tuna as far as possible
+Avoid the seagulls who are on the hunt for fresh fish
+Info, 
+Begining in 1979 fishermen would launch tuna into loading trucks and they challenged each other to see who could throw it
+the furthest to get the rest of the day off
+The mayor saw the fishermen play this game and decided to turn it into a national sport and a staple tourist attraction for Port Lincoln
+Current World Champs- Womens, Estie Mayer-Stander  Mens, Levi Proude
+
+CT-
+Info, 
+First CT Event first recorded in 1574
+The sport had extensive ties to the army, teaching soldiers how to create make-shift walkways through trenches during the war.
+Cabers are immensely heavy due to their competetive length nearing 20ft during the Highland Games.
+
+
+
+Errors;
+MapScene:
+Welcome to Australia- change location to "Port Lincoln"
+Welcome to USA- Country graphic isn't showing USA, its showing Australia
+Welcome to Scotland- Switch text from "If nobody can lift..." to "Each contestant trains with the same style of caber which prevents cheaters"
+Travel tp Australia- Change text to "Make sure to also say hi to the roos!"
+Travel to Indonesia- Change text to "In addition to the exotic wildlife, this is your next detination for an unknown sport!"
+travel to Finland- Change text to "Go North to snatch gold and maybe a beer to continue your trip around the globe!"
+travel to USA- Change text to "For your last sport, make your way to the Big Apple!"
+Travel to Scotland- Change text to "This is your first destination to begin your journey on becoming the Underground Sports Champion! "
+
+
