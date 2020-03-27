@@ -41,12 +41,12 @@ public class PacuJawiMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow) && activateMovement == true)
+        if (Input.GetKey(KeyCode.W) && activateMovement == true)
         {
             transform.position += Vector3.up * VerticalMoveSpeed;
         }
 
-        if (Input.GetKey(KeyCode.DownArrow) && activateMovement == true)
+        if (Input.GetKey(KeyCode.S) && activateMovement == true)
         {
             transform.position += Vector3.down * VerticalMoveSpeed;
         }
