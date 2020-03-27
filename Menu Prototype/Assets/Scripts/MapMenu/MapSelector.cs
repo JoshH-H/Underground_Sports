@@ -23,42 +23,22 @@ public class MapSelector : MonoBehaviour
     public void Scotland()
     {
         toScotland.SetActive(true);
-        if (Input.GetKeyDown(back))
-        {
-            toScotland.SetActive(false);
-        }
     }
     public void Finland()
     {
         toFinland.SetActive(true);
-        if (Input.GetKeyDown(back))
-        {
-            toFinland.SetActive(false);
-        }
     }
     public void Indonesia()
     {
         toIndonesia.SetActive(true);
-        if (Input.GetKeyDown(back))
-        {
-            toIndonesia.SetActive(false);
-        }
     }
     public void Australia()
     {
         toAustralia.SetActive(true);
-        if (Input.GetKeyDown(back))
-        {
-            toAustralia.SetActive(false);
-        }
     }
     public void USA()
     {
         toUSA.SetActive(true);
-        if (Input.GetKeyDown(back))
-        {
-            toUSA.SetActive(false);
-        }
     }
     //ToPlaces END
     
@@ -84,4 +64,19 @@ public class MapSelector : MonoBehaviour
         acceptUSA.SetActive(true);
     }
     //AcceptPlaces END
+    
+    //CloseAllTabs
+    public void Back()
+    {
+        toScotland.SetActive(false);
+        acceptScotland.SetActive(false);
+        toFinland.SetActive(false);
+        acceptFinland.SetActive(false);
+        toIndonesia.SetActive(false);
+        acceptIndonesia.SetActive(false);
+        toAustralia.SetActive(false);
+        acceptAustralia.SetActive(false);
+        toUSA.SetActive(false);
+        acceptUSA.SetActive(false);
+    }
 }

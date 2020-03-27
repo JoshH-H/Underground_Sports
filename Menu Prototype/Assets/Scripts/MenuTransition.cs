@@ -4,16 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuTransition : MonoBehaviour
-{
-    //public GameObject Logo;
-    private void OnTriggerEnter2D(Collider2D collision)
+{ 
+    public void Begin()
     {
-        StartCoroutine("Switch");
-    }
-
-    IEnumerator Switch()
-    {
-        yield return new WaitForSeconds(3);
         SceneManager.LoadScene("LDScreen");
-    }
+    } 
 }
