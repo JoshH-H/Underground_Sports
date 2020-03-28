@@ -72,7 +72,7 @@ public class EatingFlow : MonoBehaviour
 
     IEnumerator restartFood()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.5f);
         eating_W = true;
         Debug.Log("works");
     }
