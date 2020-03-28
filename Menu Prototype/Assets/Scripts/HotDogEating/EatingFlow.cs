@@ -9,7 +9,7 @@ public class EatingFlow : MonoBehaviour
 
     private static float currentFood = 10;
 
-   private static float maxFood = 150;
+   private static float maxFood = 200;
 
     //public KeyCode eat;
     public bool eating_W { get; set; }
@@ -22,27 +22,25 @@ public class EatingFlow : MonoBehaviour
 
     void Update()
     {
-        if (eating_W)
+        //FoodBar
+        if (Input.GetKey(KeyCode.W) && eating_W)
         {
-            //FoodBar
-            if (Input.GetKey(KeyCode.W))
+            timeCheck += Time.deltaTime;
+        }
+        else
+        {
+            if (currentFood < maxFood)
             {
-                timeCheck += Time.deltaTime;
-            }
-            else
-            {
-                if (currentFood < maxFood)
-                {
                     currentFood += 0.15f;
-                }
             }
         }
+        
 
         if (timeCheck>.50)
         {
 
             timeCheck = 0;
-            currentFood -= 10;
+            currentFood -= 20;
         }
         
         if (currentFood>51)
@@ -74,7 +72,7 @@ public class EatingFlow : MonoBehaviour
 
     IEnumerator restartFood()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         eating_W = true;
         Debug.Log("works");
     }
