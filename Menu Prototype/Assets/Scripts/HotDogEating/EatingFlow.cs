@@ -8,6 +8,8 @@ public class EatingFlow : MonoBehaviour
     //Bars
     public Transform foodBar;
     public Transform drinkBar;
+
+    public Transform burpBar;
     //Food
     private static float currentFood = 10;
     private static float maxFood = 200;
@@ -15,21 +17,26 @@ public class EatingFlow : MonoBehaviour
     private static float currentDrink = 10;
     private static float maxDrink = 150;
     //Burp
-    
+    private static float currentBurp = 10;
+    private static float maxBurp = 150;
     //ButtonActions
     public bool eating_W { get; set; }
     public bool drinking_S { get; set; }
+    public bool burping_SP { get; set; }
     //TimeScale
     public float timeCheck = 0;
     public float timeCheckDr = 0;
+    public float timeCheckBr = 0;
     void Start()
     {
         //BarStartingColour
         foodBar.GetComponent<Image>().color = new Color(0,1,0);
         drinkBar.GetComponent<Image>().color = new Color(0,1,0);
+        burpBar.GetComponent<Image>().color = new Color(0,1,0);
         //ButtonsActivated
         eating_W = true;
         drinking_S = true;
+        burping_SP = true;
     }
 
     void Update()
@@ -77,6 +84,7 @@ public class EatingFlow : MonoBehaviour
         if (Input.GetKey(KeyCode.S) && drinking_S)
         {
             timeCheckDr += Time.deltaTime;
+            timeCheck += Time.deltaTime;
         }
         else
         {
@@ -111,6 +119,44 @@ public class EatingFlow : MonoBehaviour
         }
         drinkBar.GetComponent<RectTransform>().localScale = new Vector3(1, currentDrink/maxDrink, 1);
         //DrinkBarEND
+        
+        //BurpBar
+        if (Input.GetKey(KeyCode.Space) && burping_SP)
+        {
+            timeCheckBr += Time.deltaTime;
+        }
+        else
+        {
+            if (currentBurp < maxBurp)
+            {
+                currentBurp += 0.10f;
+            }
+        }
+        if (timeCheckBr>.80)
+        {
+
+            timeCheckBr = 0;
+            currentBurp -= 10;
+        }
+        
+        if (currentBurp>51)
+        {
+            burpBar.GetComponent<Image>().color = new Color(1,1,0);
+        }
+        if (currentBurp>100)
+        {
+            burpBar.GetComponent<Image>().color = new Color(1,0,0);
+        }
+        if (currentBurp<50)
+        {
+            burpBar.GetComponent<Image>().color = new Color(0,1,0);
+        }
+
+        if (currentBurp <= 10)
+        {
+            timeCheckBr -= Time.deltaTime;
+        }
+        burpBar.GetComponent<RectTransform>().localScale = new Vector3(1, currentBurp/maxBurp, 1);
     }
     //AnimEvents
     //FoodAnim
