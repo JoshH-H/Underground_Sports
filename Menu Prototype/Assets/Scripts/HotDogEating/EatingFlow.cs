@@ -5,19 +5,31 @@ using UnityEngine.UI;
 
 public class EatingFlow : MonoBehaviour
 {
+    //Bars
     public Transform foodBar;
-
+    public Transform drinkBar;
+    //Food
     private static float currentFood = 10;
-
-   private static float maxFood = 200;
-
-    //public KeyCode eat;
+    private static float maxFood = 200;
+    //Drink
+    private static float currentDrink = 10;
+    private static float maxDrink = 150;
+    //Burp
+    
+    //ButtonActions
     public bool eating_W { get; set; }
+    public bool drinking_S { get; set; }
+    //TimeScale
     public float timeCheck = 0;
+    public float timeCheckDr = 0;
     void Start()
     {
+        //BarStartingColour
         foodBar.GetComponent<Image>().color = new Color(0,1,0);
+        drinkBar.GetComponent<Image>().color = new Color(0,1,0);
+        //ButtonsActivated
         eating_W = true;
+        drinking_S = true;
     }
 
     void Update()
@@ -31,16 +43,14 @@ public class EatingFlow : MonoBehaviour
         {
             if (currentFood < maxFood)
             {
-                    currentFood += 0.15f;
+                    currentFood += 0.20f;
             }
         }
-        
-
-        if (timeCheck>.50)
+        if (timeCheck>.35)
         {
 
             timeCheck = 0;
-            currentFood -= 20;
+            currentFood -= 10;
         }
         
         if (currentFood>51)
@@ -62,8 +72,48 @@ public class EatingFlow : MonoBehaviour
         }
         foodBar.GetComponent<RectTransform>().localScale = new Vector3(1, currentFood/maxFood, 1);
         //FoodBarEND
+        
+        //DrinkBar
+        if (Input.GetKey(KeyCode.S) && drinking_S)
+        {
+            timeCheckDr += Time.deltaTime;
+        }
+        else
+        {
+            if (currentDrink < maxDrink)
+            {
+                currentDrink += 0.30f;
+            }
+        }
+        if (timeCheckDr>.25)
+        {
+
+            timeCheckDr = 0;
+            currentDrink -= 10;
+        }
+        
+        if (currentDrink>51)
+        {
+            drinkBar.GetComponent<Image>().color = new Color(1,1,0);
+        }
+        if (currentDrink>100)
+        {
+            drinkBar.GetComponent<Image>().color = new Color(1,0,0);
+        }
+        if (currentDrink<50)
+        {
+            drinkBar.GetComponent<Image>().color = new Color(0,1,0);
+        }
+
+        if (currentDrink <= 10)
+        {
+            timeCheckDr -= Time.deltaTime;
+        }
+        drinkBar.GetComponent<RectTransform>().localScale = new Vector3(1, currentDrink/maxDrink, 1);
+        //DrinkBarEND
     }
-    //Animevents
+    //AnimEvents
+    //FoodAnim
     public void disableEat()
     {
         eating_W = false;
@@ -74,6 +124,20 @@ public class EatingFlow : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f);
         eating_W = true;
+    }
+    //FoodAnimEND
+    
+    //DrinkAnim
+    public void disableDrink()
+    {
+        drinking_S = false;
+        StartCoroutine("restartDrink");
+    }
+
+    IEnumerator restartDrink()
+    {
+        yield return new WaitForSeconds(2.5f);
+        drinking_S = true;
         Debug.Log("works");
     }
 }
