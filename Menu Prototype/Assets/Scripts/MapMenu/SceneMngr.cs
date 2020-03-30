@@ -30,4 +30,9 @@ public class SceneMngr : MonoBehaviour
     {
         SceneManager.LoadScene("HotDogEatingScene");
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }

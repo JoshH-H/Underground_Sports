@@ -27,7 +27,7 @@ public class PJGoal : MonoBehaviour
 
             Player.GetComponent<PacuJawiMovement>().Speed = 0;
             Player.GetComponent<PacuJawiMovement>().SpeedIncrease = 0;
-            Player.GetComponent<PacuJawiMovement>().activateMovement = false;
+            //Player.GetComponent<PacuJawiMovement>().activateMovement = false;
             FinalTime.SetActive(true);
             Timer.enabled = false;
             Timer.timerText.ToString();

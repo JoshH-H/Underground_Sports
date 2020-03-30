@@ -36,4 +36,9 @@ public class PlayPrefsTest : MonoBehaviour
         SceneManager.LoadScene("LDScreen");
     }
 
+    public void NotSure()
+    {
+        uSure.SetActive(false);
+    }
+
 }
