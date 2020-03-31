@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class PlayPrefsTest : MonoBehaviour
 {
     public Button[] levelButtons;
+    public GameObject[] champion;
     public GameObject uSure;
 
     private void Start()
@@ -22,8 +23,18 @@ public class PlayPrefsTest : MonoBehaviour
                 levelButtons[i].interactable = false;
             }
         }
-        uSure.SetActive(false);
+
+        int Champ = PlayerPrefs.GetInt("Champ", 1);
+        for (int c = 0; c < champion.Length; c++)
+        {
+            if (c + 1 > Champ)
+            {
+                champion[c].SetActive(false);
+            }
+        }
     }
+    
+    
 
     public void EraseData()
     {
