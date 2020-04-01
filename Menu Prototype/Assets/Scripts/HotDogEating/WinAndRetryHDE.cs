@@ -14,14 +14,12 @@ public class WinAndRetryHDE : MonoBehaviour
     public void Winner()
     {
         SceneManager.LoadScene ("LDScreen");
+        PlayerPrefs.SetInt("Champ", 2);
     }
 
     public void Return()
     {
         SceneManager.LoadScene("LDScreen");
-    }
-    public void WinLevel()
-    {
-        PlayerPrefs.SetInt("Champ", 2);
+        PlayerPrefs.SetInt("levelReached", 5);
     }
 }
