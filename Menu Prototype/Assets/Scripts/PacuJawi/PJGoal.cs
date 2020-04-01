@@ -38,7 +38,6 @@ public class PJGoal : MonoBehaviour
         Driver.transform.parent = null;
         Camera.transform.parent = null;
 
-        Player.GetComponent<PacuJawiMovement>().Speed = 0;
         Player.GetComponent<PacuJawiMovement>().SpeedIncrease = 0;
         Player.GetComponent<PacuJawiMovement>().activateMovement = false;
 

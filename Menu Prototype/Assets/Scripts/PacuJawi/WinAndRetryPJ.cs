@@ -20,5 +20,6 @@ public class WinAndRetryPJ : MonoBehaviour
     public void Return()
     {
         SceneManager.LoadScene("LDScreen");
+        PlayerPrefs.SetInt("levelReached", 3);
     }
 }

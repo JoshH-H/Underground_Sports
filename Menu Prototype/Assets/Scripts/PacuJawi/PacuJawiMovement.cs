@@ -58,7 +58,7 @@ public class PacuJawiMovement : MonoBehaviour
 
         if (activateMovement == true)
         {
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(12);
             Boost.SetActive(true);
             Destroy(Boost, 3);
         }
@@ -83,10 +83,5 @@ public class PacuJawiMovement : MonoBehaviour
             yield return new WaitForSeconds(5);
             Animation.SetBool("Hurting", false);
         }
-
-        /*        else
-                {
-                    Animation.SetBool("Moving", true);
-                }*/
     }
 }
