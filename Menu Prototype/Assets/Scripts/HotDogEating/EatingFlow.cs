@@ -240,5 +240,13 @@ public class EatingFlow : MonoBehaviour
         lose.SetActive(true);
         Time.timeScale = 0;
     }
+    
+    //Misc
+    IEnumerator beginDR()
+    {
+        yield return new WaitForSeconds(1);
+        timeCheckDr += Time.timeScale;
+        Debug.Log("poof");
+    }
 
 }

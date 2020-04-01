@@ -18,8 +18,6 @@ public class GainPoints : MonoBehaviour
     public GameObject silver;
     public GameObject bronze;
 
-    
-
     private void Start()
     {
         StartTime = Time.time;
@@ -42,12 +40,6 @@ public class GainPoints : MonoBehaviour
 
      void Update()
     {
-/*        if (_dogs == 20)
-        {
-            Winner.SetActive(true);
-            Time.timeScale = 0;
-        }*/
-        
         float time = Time.time - StartTime;
 
         string minutes = ((int)time / 60).ToString();

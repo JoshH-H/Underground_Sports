@@ -41,6 +41,9 @@ TextureImporter:
   - first:
       213: -8467562830400338615
     second: TTitems 2_2
+  - first:
+      213: -8626042075038249242
+    second: MeterBar
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -393,6 +396,27 @@ TextureImporter:
       bones: []
       spriteID: 8f955d307aad3f44aaf07f38cf8692a9
       internalID: -8467562830400338615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeterBar
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 457
+        width: 17
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa210ad0b9586d642aed5c314bb44924
+      internalID: -8626042075038249242
       vertices: []
       indices: 
       edges: []

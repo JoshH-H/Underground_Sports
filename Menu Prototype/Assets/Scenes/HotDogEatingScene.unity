@@ -1167,7 +1167,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 5896678598769031344, guid: 9f159a51c806b95439c41d1fbb936ef8,
+  m_Sprite: {fileID: -8626042075038249242, guid: 9f159a51c806b95439c41d1fbb936ef8,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -1334,7 +1334,7 @@ GameObject:
   - component: {fileID: 532820033}
   - component: {fileID: 532820032}
   m_Layer: 5
-  m_Name: bar2
+  m_Name: DrinkMax
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1356,7 +1356,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 302, y: -7}
+  m_AnchoredPosition: {x: 299.1, y: -7}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &532820032
@@ -1523,7 +1523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &603009289
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1676,7 +1676,7 @@ GameObject:
   - component: {fileID: 628682958}
   - component: {fileID: 628682957}
   m_Layer: 5
-  m_Name: bar3
+  m_Name: BurpMax
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1698,7 +1698,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 427, y: -7}
+  m_AnchoredPosition: {x: 425.5, y: -7}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &628682957
@@ -1797,7 +1797,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 5896678598769031344, guid: 9f159a51c806b95439c41d1fbb936ef8,
+  m_Sprite: {fileID: -8626042075038249242, guid: 9f159a51c806b95439c41d1fbb936ef8,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -3075,7 +3075,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 5896678598769031344, guid: 9f159a51c806b95439c41d1fbb936ef8,
+  m_Sprite: {fileID: -8626042075038249242, guid: 9f159a51c806b95439c41d1fbb936ef8,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -5238,7 +5238,7 @@ GameObject:
   - component: {fileID: 1550411783}
   - component: {fileID: 1550411782}
   m_Layer: 5
-  m_Name: bar
+  m_Name: FoodMax
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6810,7 +6810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2030639198
 RectTransform:
   m_ObjectHideFlags: 0
