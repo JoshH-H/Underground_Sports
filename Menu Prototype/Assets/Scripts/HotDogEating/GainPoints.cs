@@ -13,6 +13,11 @@ public class GainPoints : MonoBehaviour
     public int point;
     public Text timerText;
     private float StartTime;
+
+    public GameObject gold;
+    public GameObject silver;
+    public GameObject bronze;
+
     
 
     private void Start()
@@ -37,11 +42,11 @@ public class GainPoints : MonoBehaviour
 
      void Update()
     {
-        if (_dogs == 20)
+/*        if (_dogs == 20)
         {
             Winner.SetActive(true);
             Time.timeScale = 0;
-        }
+        }*/
         
         float time = Time.time - StartTime;
 
@@ -50,5 +55,37 @@ public class GainPoints : MonoBehaviour
 
         timerText.text = minutes + ":" + seconds;
 
+    }
+
+    private void FixedUpdate()
+    {
+        StartCoroutine(twoMinutesFin());
+    }
+
+    private IEnumerator twoMinutesFin()
+    {
+        yield return new WaitForSeconds(120);
+        Winningstates();
+    }
+
+    void Winningstates()
+    {
+        if (_dogs >= 28)
+        {
+            gold.SetActive(true);
+            Time.timeScale = 0;
+        }
+
+        if (_dogs <=25)
+        {
+            silver.SetActive(true);
+            Time.timeScale = 0;
+        }
+
+        if (_dogs <= 20)
+        {
+            bronze.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 }
