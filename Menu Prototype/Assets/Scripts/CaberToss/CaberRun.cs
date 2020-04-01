@@ -54,7 +54,7 @@ public class CaberRun : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Animation.SetBool("Tossed", true);
+            //Animation.SetBool("Tossed", true);
             yield return new WaitForSeconds(2);
             Animation.SetBool("Relax", true);
         }

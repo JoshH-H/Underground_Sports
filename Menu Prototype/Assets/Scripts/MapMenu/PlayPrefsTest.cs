@@ -33,8 +33,7 @@ public class PlayPrefsTest : MonoBehaviour
             }
         }
     }
-    
-    
+
 
     public void EraseData()
     {

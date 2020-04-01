@@ -5565,7 +5565,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 974769773}
-        m_MethodName: WinLevel
+        m_MethodName: Winner
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

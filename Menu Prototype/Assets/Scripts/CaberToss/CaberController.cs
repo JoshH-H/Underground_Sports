@@ -15,6 +15,7 @@ public class CaberController : MonoBehaviour
     private float _yDegrees;
     private Quaternion _fromRotation;
     private Quaternion _toRotation;
+    private Animator Animation;
 
     //public float rotateSpeed;
     public GameObject player;
@@ -31,6 +32,7 @@ public class CaberController : MonoBehaviour
     void Start()
     {
         _caberRb = GetComponent<Rigidbody2D>();
+        Animation = player.GetComponent<Animator>();
         MeterBar.SetActive(false);
     }
 
@@ -47,6 +49,7 @@ public class CaberController : MonoBehaviour
         MeterBar.SetActive(false);
         BarActivator.SetActive(false);
         Upholder.SetActive(false);
+        Animation.SetBool("Tossed", true);
     }
 
 

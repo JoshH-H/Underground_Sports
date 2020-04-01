@@ -20,6 +20,6 @@ public class WinAndRetryCT : MonoBehaviour
     public void Return()
     {
         SceneManager.LoadScene("LDScreen");
-        PlayerPrefs.SetInt("levelReached", 1);
+        
     }
 }
