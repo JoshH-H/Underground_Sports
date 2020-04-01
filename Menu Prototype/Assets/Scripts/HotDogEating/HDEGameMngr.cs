@@ -18,6 +18,7 @@ public class HDEGameMngr : MonoBehaviour
         CountDownAnimation.SetActive(false);
         player.GetComponent<GainPoints>().enabled = false;
         player.GetComponent<EatingFlow>().enabled = false;
+        player.GetComponent<EatingTest>().enabled = false;
     }
 
     public void InstructionsComplete()
@@ -33,5 +34,6 @@ public class HDEGameMngr : MonoBehaviour
         yield return new WaitForSeconds(4);
         player.GetComponent<GainPoints>().enabled = true;
         player.GetComponent<EatingFlow>().enabled = true;
+        player.GetComponent<EatingTest>().enabled = true;
     }
 }
