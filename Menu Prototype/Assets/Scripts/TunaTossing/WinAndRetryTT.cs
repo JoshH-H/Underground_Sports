@@ -7,21 +7,19 @@ public class WinAndRetryTT : MonoBehaviour
 {
     public void Retry()
     {
-        Scene loadedLevel = SceneManager.GetActiveScene ();
-        SceneManager.LoadScene (loadedLevel.buildIndex);
+        Scene loadedLevel = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(loadedLevel.buildIndex);
     }
-    
+
     public void Winner()
     {
-        SceneManager.LoadScene ("LDScreen");
+        SceneManager.LoadScene("LDScreen");
+        PlayerPrefs.SetInt("levelReached", 5);
     }
 
     public void Return()
     {
         SceneManager.LoadScene("LDScreen");
-    }
-    public void WinLevel()
-    {
-        PlayerPrefs.SetInt("levelReached", 5);
+        PlayerPrefs.SetInt("levelReached", 4);
     }
 }
