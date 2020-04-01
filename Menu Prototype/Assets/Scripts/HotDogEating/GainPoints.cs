@@ -18,6 +18,10 @@ public class GainPoints : MonoBehaviour
     public GameObject silver;
     public GameObject bronze;
 
+    public GameObject Opp1;
+    public GameObject Opp2;
+    public GameObject Opp3;
+
     private void Start()
     {
         StartTime = Time.time;
@@ -26,6 +30,9 @@ public class GainPoints : MonoBehaviour
     {
         _dogs = 0;
         SetDogs();
+        Opp1.GetComponent<Animator>().SetBool("Eat", true);
+        Opp2.GetComponent<Animator>().SetBool("Eat", true);
+        Opp3.GetComponent<Animator>().SetBool("Eat", true);
     }
     public void SetDogs()
     {
@@ -58,6 +65,9 @@ public class GainPoints : MonoBehaviour
     {
         yield return new WaitForSeconds(120);
         Winningstates();
+        Opp1.GetComponent<Animator>().SetBool("Eat", false);
+        Opp2.GetComponent<Animator>().SetBool("Eat", false);
+        Opp3.GetComponent<Animator>().SetBool("Eat", false);
     }
 
     void Winningstates()

@@ -2150,6 +2150,9 @@ MonoBehaviour:
   player: {fileID: 1470951864}
   CountDownAnimation: {fileID: 1912354857}
   Instructions: {fileID: 785048971}
+  Opp1: {fileID: 1900492118}
+  Opp2: {fileID: 1390852554}
+  Opp3: {fileID: 741501999}
 --- !u!1 &741501999
 GameObject:
   m_ObjectHideFlags: 0
