@@ -19,7 +19,7 @@ public class PJObstacles : MonoBehaviour
     {
         if (collision.gameObject.tag == ("Player"))
         {
-            PJGlobalData.lives--;
+            gd.lives--;
             GameObject.Find("GameManager").GetComponent<PJGlobalData>().UpdateLives();
             Player.GetComponent<PacuJawiMovement>().Speed = 2;
             Player.GetComponent<Animator>().SetBool("Hurting", true);
@@ -30,7 +30,7 @@ public class PJObstacles : MonoBehaviour
             Player.GetComponent<PacuJawiMovement>().Speed = 5;
         }
 
-        if (PJGlobalData.lives == 0)
+        if (gd.lives == 0)
         {
             Player.GetComponent<PacuJawiMovement>().Speed = 0;
         }

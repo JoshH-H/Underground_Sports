@@ -17,8 +17,8 @@ public class PJGlobalData : MonoBehaviour
     public GameObject Bronze;
 
     public GameObject[] pLives;
-
-    static public int lives = 3;
+ 
+    public int lives = 3;
 
     private Animator Animation;
     private RaceTimer Timer;
