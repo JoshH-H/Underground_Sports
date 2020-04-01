@@ -62,7 +62,7 @@ public class GainPoints : MonoBehaviour
 
     void Winningstates()
     {
-        if (_dogs >= 26)
+        if (_dogs >= 29)
         {
             gold.SetActive(true);
             Time.timeScale = 0;
