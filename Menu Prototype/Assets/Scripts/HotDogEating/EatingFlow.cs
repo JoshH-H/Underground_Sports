@@ -11,15 +11,15 @@ public class EatingFlow : MonoBehaviour
     public Transform drinkBar;
     public Transform burpBar;
     //Food
-    private static float currentFood = 10;
+    private float currentFood = 10;
     private static float maxFood = 200;
     public Button eatButton;
     //Drink
-    private static float currentDrink = 10;
+    private float currentDrink = 10;
     private static float maxDrink = 150;
     public Button drinkButton;
     //Burp
-    private static float currentBurp = 10;
+    private float currentBurp = 10;
     private static float maxBurp = 160;
     public Button burpButton;
     //ButtonActions
@@ -46,6 +46,10 @@ public class EatingFlow : MonoBehaviour
         burping_SP = false;
         burpButton.interactable = false;
         Animation = Player.GetComponent<Animator>();
+        currentFood = 10;
+        currentDrink = 10;
+        currentBurp = 10;
+
     }
 
     void Update()
