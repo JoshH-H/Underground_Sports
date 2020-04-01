@@ -14,14 +14,12 @@ public class WinAndRetryCT : MonoBehaviour
     public void Winner()
     {
         SceneManager.LoadScene ("LDScreen");
+        PlayerPrefs.SetInt("levelReached", 2);
     }
 
     public void Return()
     {
         SceneManager.LoadScene("LDScreen");
-    }
-    public void WinLevel()
-    {
-        PlayerPrefs.SetInt("levelReached", 2);
+        PlayerPrefs.SetInt("levelReached", 1);
     }
 }
