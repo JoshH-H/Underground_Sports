@@ -15,6 +15,7 @@ public class WinAndRetryWC : MonoBehaviour
     {
         SceneManager.LoadScene ("LDScreen");
         PlayerPrefs.SetInt("levelReached", 3);
+        PlayerPrefs.SetInt("_locks", 3);
     }
 
     public void Return()

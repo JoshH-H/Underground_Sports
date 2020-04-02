@@ -2722,9 +2722,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 064aa6d2ab708b443be1eaddd9a260b6, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5254,6 +5254,9 @@ MonoBehaviour:
   gold: {fileID: 1217456058}
   silver: {fileID: 2030639197}
   bronze: {fileID: 603009288}
+  Opp1: {fileID: 0}
+  Opp2: {fileID: 0}
+  Opp3: {fileID: 0}
 --- !u!1 &1518118876
 GameObject:
   m_ObjectHideFlags: 0

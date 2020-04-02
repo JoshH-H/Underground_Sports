@@ -63,7 +63,7 @@ public class EatingFlow : MonoBehaviour
         {
             if (currentFood < maxFood)
             {
-                    currentFood += 0.10f;
+                currentFood += 0.10f;
             }
         }
         if (timeCheck>.30)
@@ -74,15 +74,15 @@ public class EatingFlow : MonoBehaviour
             currentDrink += 5;
         }
         
-        if (currentFood>81)
+        if (currentFood>141)
         {
             foodBar.GetComponent<Image>().color = new Color(1,1,0);
         }
-        if (currentFood>151)
+        if (currentFood>180)
         {
             foodBar.GetComponent<Image>().color = new Color(1,0,0);
         }
-        if (currentFood<80)
+        if (currentFood<140)
         {
             foodBar.GetComponent<Image>().color = new Color(0,1,0);
         }
@@ -103,7 +103,6 @@ public class EatingFlow : MonoBehaviour
         if (Input.GetKey(KeyCode.S) && drinking_S)
         {
             timeCheckDr += Time.deltaTime;
-            //drinkButton.SetActive(true);
         }
         else
         {
@@ -120,15 +119,15 @@ public class EatingFlow : MonoBehaviour
             currentFood -= 10;
         }
         
-        if (currentDrink>51)
+        if (currentDrink>91)
         {
             drinkBar.GetComponent<Image>().color = new Color(1,1,0);
         }
-        if (currentDrink>100)
+        if (currentDrink>130)
         {
             drinkBar.GetComponent<Image>().color = new Color(1,0,0);
         }
-        if (currentDrink<50)
+        if (currentDrink<90)
         {
             drinkBar.GetComponent<Image>().color = new Color(0,1,0);
         }
@@ -166,11 +165,11 @@ public class EatingFlow : MonoBehaviour
             currentFood -= 7;
         }
         
-        if (currentBurp>51)
+        if (currentBurp>91)
         {
             burpBar.GetComponent<Image>().color = new Color(1,1,0);
         }
-        if (currentBurp>100)
+        if (currentBurp>135)
         {
             burpBar.GetComponent<Image>().color = new Color(1,0,0);
             /*Debug.Log("fish");*/
@@ -180,7 +179,7 @@ public class EatingFlow : MonoBehaviour
             burping_SP = true;
             burpButton.interactable = true;
         }
-        if (currentBurp<50)
+        if (currentBurp<90)
         {
             burpBar.GetComponent<Image>().color = new Color(0,1,0);
         }

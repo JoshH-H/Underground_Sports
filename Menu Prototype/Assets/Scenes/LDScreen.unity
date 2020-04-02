@@ -574,9 +574,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.764151, g: 0, b: 0, a: 1}
-    m_PressedColor: {r: 0.5283019, g: 0, b: 0, a: 1}
+    m_NormalColor: {r: 1, g: 0.07450981, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.57254905, g: 0.07450981, b: 0, a: 1}
+    m_PressedColor: {r: 0.40392157, g: 0.07450981, b: 0, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.0706063, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -873,7 +873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &92958593
 RectTransform:
   m_ObjectHideFlags: 0
@@ -891,7 +891,7 @@ RectTransform:
   - {fileID: 243470208}
   - {fileID: 1984943807}
   m_Father: {fileID: 1218622553}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1262,9 +1262,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.764151, g: 0, b: 0, a: 1}
-    m_PressedColor: {r: 0.5283019, g: 0, b: 0, a: 1}
+    m_NormalColor: {r: 1, g: 0.07450981, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.57254905, g: 0.07450981, b: 0, a: 1}
+    m_PressedColor: {r: 0.40392157, g: 0.07450981, b: 0, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1311,7 +1311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.0706063, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1617,7 +1617,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &243470208
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1687,12 +1687,12 @@ GameObject:
   - component: {fileID: 258806400}
   - component: {fileID: 258806399}
   m_Layer: 5
-  m_Name: Fin (1)
+  m_Name: Scot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &258806398
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1709,7 +1709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: 405}
+  m_AnchoredPosition: {x: -122, y: 436}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &258806399
@@ -2031,7 +2031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &456858932
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3223,7 +3223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &834350397
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3435,9 +3435,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.764151, g: 0, b: 0, a: 1}
-    m_PressedColor: {r: 0.5283019, g: 0, b: 0, a: 1}
+    m_NormalColor: {r: 1, g: 0.07450981, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.57254905, g: 0.07450981, b: 0, a: 1}
+    m_PressedColor: {r: 0.40392157, g: 0.07450981, b: 0, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -3484,7 +3484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.0706063, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3567,9 +3567,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.764151, g: 0, b: 0, a: 1}
-    m_PressedColor: {r: 0.5283019, g: 0, b: 0, a: 1}
+    m_NormalColor: {r: 1, g: 0.07450981, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.57254905, g: 0.07450981, b: 0, a: 1}
+    m_PressedColor: {r: 0.40392157, g: 0.07450981, b: 0, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -3616,7 +3616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.0706063, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3920,6 +3920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelButtons: []
   champion: []
+  lockouts: []
   uSure: {fileID: 781454847}
 --- !u!1 &967781268
 GameObject:
@@ -4715,8 +4716,8 @@ RectTransform:
   m_Children:
   - {fileID: 966801979}
   - {fileID: 267893296}
-  - {fileID: 92958593}
   - {fileID: 1258177639}
+  - {fileID: 92958593}
   - {fileID: 1903764016}
   - {fileID: 776252017}
   - {fileID: 781454848}
@@ -4991,7 +4992,7 @@ RectTransform:
   - {fileID: 60976327}
   - {fileID: 2048851654}
   m_Father: {fileID: 1218622553}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5087,6 +5088,12 @@ MonoBehaviour:
   champion:
   - {fileID: 1535000280}
   - {fileID: 1678238993}
+  lockouts:
+  - {fileID: 258806397}
+  - {fileID: 456858931}
+  - {fileID: 834350396}
+  - {fileID: 243470207}
+  - {fileID: 1984943806}
   uSure: {fileID: 781454847}
 --- !u!1 &1329928158
 GameObject:
@@ -7058,7 +7065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1984943807
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7389,9 +7396,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.764151, g: 0, b: 0, a: 1}
-    m_PressedColor: {r: 0.5283019, g: 0, b: 0, a: 1}
+    m_NormalColor: {r: 1, g: 0.07450981, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.57254905, g: 0.07450981, b: 0, a: 1}
+    m_PressedColor: {r: 0.40392157, g: 0.07450981, b: 0, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -7438,7 +7445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.0706063, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

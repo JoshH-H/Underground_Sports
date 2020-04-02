@@ -15,6 +15,7 @@ public class WinAndRetryTT : MonoBehaviour
     {
         SceneManager.LoadScene("LDScreen");
         PlayerPrefs.SetInt("levelReached", 5);
+        PlayerPrefs.SetInt("_locks", 5);
     }
 
     public void Return()

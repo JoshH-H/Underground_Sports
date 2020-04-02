@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.UIElements;
 using Button = UnityEngine.UI.Button;
@@ -10,6 +11,7 @@ public class PlayPrefsTest : MonoBehaviour
 {
     public Button[] levelButtons;
     public GameObject[] champion;
+    public GameObject[] lockouts;
     public GameObject uSure;
 
     private void Start()
@@ -25,11 +27,22 @@ public class PlayPrefsTest : MonoBehaviour
         }
 
         int Champ = PlayerPrefs.GetInt("Champ", 1);
+        
         for (int c = 0; c < champion.Length; c++)
         {
             if (c + 1 > Champ)
             {
                 champion[c].SetActive(false);
+            }
+        }
+
+        int _locks = PlayerPrefs.GetInt("_locks", 1);
+        
+        for (int l = 0; l < lockouts.Length; l++)
+        {
+            if (l + 1 > _locks)
+            {   
+                lockouts[l].SetActive(true);
             }
         }
     }

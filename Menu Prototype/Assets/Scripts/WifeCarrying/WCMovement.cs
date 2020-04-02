@@ -101,6 +101,6 @@ public class WCMovement : MonoBehaviour
     {
             yield return new WaitForSeconds(8);
             Boost.SetActive(true);
-            Destroy(Boost, 1);
+            Destroy(Boost, 2);
     }
 }
