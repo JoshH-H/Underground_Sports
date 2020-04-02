@@ -8,25 +8,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 33e1c731d97aa624d9d7bb9a7ff59132
   - enabled: 1
-    path: Assets/Scenes/HotDogEatingScene.unity
-    guid: 92ea912cbf406534d8db6a4d40c10622
-  - enabled: 1
     path: Assets/Scenes/LDScreen.unity
     guid: 72c532b3a1ba4f94dad00284d0b810b4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/CaberToss.unity
     guid: 9e83285e8337acf4693ea31596ba1ab7
-  - enabled: 0
-    path: Assets/Scenes/PacuJawiPrototype.unity
-    guid: e7444d069b64d5a4cafe899925bb02a0
-  - enabled: 0
-    path: Assets/Scenes/TunaTossScene.unity
-    guid: 119cf2d895f0f3642a20e41d4e89fe13
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WifeCarrying.unity
     guid: e813297da3ae74f4bb0920697a791f2b
+  - enabled: 1
+    path: Assets/Scenes/PacuJawiPrototype.unity
+    guid: e7444d069b64d5a4cafe899925bb02a0
+  - enabled: 1
+    path: Assets/Scenes/TunaTossScene.unity
+    guid: 119cf2d895f0f3642a20e41d4e89fe13
+  - enabled: 1
+    path: Assets/Scenes/HotDogEatingScene.unity
+    guid: 92ea912cbf406534d8db6a4d40c10622
   m_configObjects: {}
