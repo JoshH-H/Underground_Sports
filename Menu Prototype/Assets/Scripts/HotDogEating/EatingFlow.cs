@@ -63,7 +63,7 @@ public class EatingFlow : MonoBehaviour
         {
             if (currentFood < maxFood)
             {
-                currentFood += 0.10f;
+                currentFood += 0.09f;
             }
         }
         if (timeCheck>.30)
