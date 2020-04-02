@@ -2012,7 +2012,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3835f27a9a90dbb46a9a6bc63116c5dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3851,7 +3851,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1425500044048896809, guid: fd5b8050fafcc7d4d88d4d082d18c8f6,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4064,7 +4064,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 6307771539036351039, guid: fd5b8050fafcc7d4d88d4d082d18c8f6,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4768,7 +4768,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 534629881175910971, guid: fd5b8050fafcc7d4d88d4d082d18c8f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5076,7 +5076,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2962372458676352610, guid: fd5b8050fafcc7d4d88d4d082d18c8f6,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5224,7 +5224,7 @@ GameObject:
   - component: {fileID: 1247206376}
   - component: {fileID: 1247206375}
   m_Layer: 5
-  m_Name: MainMenu
+  m_Name: Play for fun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5292,8 +5292,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1307749765}
-        m_MethodName: MainMenu
+      - m_Target: {fileID: 1307749769}
+        m_MethodName: ChampClose
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5319,7 +5319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5491,6 +5491,7 @@ GameObject:
   - component: {fileID: 1307749765}
   - component: {fileID: 1307749767}
   - component: {fileID: 1307749768}
+  - component: {fileID: 1307749769}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -5576,6 +5577,19 @@ MonoBehaviour:
   - {fileID: 243470207}
   - {fileID: 1984943806}
   uSure: {fileID: 781454847}
+--- !u!114 &1307749769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307749764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe9e30087f319e49801f55901940da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Champ: {fileID: 1678238993}
 --- !u!1 &1329928158
 GameObject:
   m_ObjectHideFlags: 0
@@ -6836,7 +6850,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2016430916010116950, guid: fd5b8050fafcc7d4d88d4d082d18c8f6,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
