@@ -84,7 +84,7 @@ public class GainPoints : MonoBehaviour
             Time.timeScale = 0;
         }
 
-        if (_dogs <= 20)
+        if (_dogs <= 24)
         {
             bronze.SetActive(true);
             Time.timeScale = 0;
