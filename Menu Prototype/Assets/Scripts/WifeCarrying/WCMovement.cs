@@ -8,6 +8,7 @@ public class WCMovement : MonoBehaviour
     public float SlowerSpeed;
 
     public GameObject Water;
+    public GameObject Boost;
 
     public AnimationState idle;
     public bool GroundCheck = true;
@@ -27,6 +28,9 @@ public class WCMovement : MonoBehaviour
         Animations();
         CalculateMovement();
         StartCoroutine(GroundCheckRoutine());
+        StartCoroutine(BoostRoutine());
+
+        
     }
 
     IEnumerator GroundCheckRoutine()
@@ -56,6 +60,11 @@ public class WCMovement : MonoBehaviour
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * horizontalInput * Speed * Time.deltaTime);
+
+        if (Boost == true && Input.GetKeyUp(KeyCode.Space))
+        {
+            Speed = 10;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -86,5 +95,12 @@ public class WCMovement : MonoBehaviour
         {
             animations.SetBool("Running", false);
         }
+    }
+
+    private IEnumerator BoostRoutine()
+    {
+            yield return new WaitForSeconds(8);
+            Boost.SetActive(true);
+            Destroy(Boost, 1);
     }
 }
