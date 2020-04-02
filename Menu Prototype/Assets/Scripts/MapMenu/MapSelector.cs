@@ -18,6 +18,8 @@ public class MapSelector : MonoBehaviour
     public GameObject acceptUSA;
     //ToGoBack
     public KeyCode back;
+    //Instructions
+    public GameObject Instructions;
     
     //ToPlaces
     public void Scotland()
@@ -78,5 +80,12 @@ public class MapSelector : MonoBehaviour
         acceptAustralia.SetActive(false);
         toUSA.SetActive(false);
         acceptUSA.SetActive(false);
+    }
+
+    //Instructions
+
+    public void InstructionsCompl()
+    {
+        Instructions.SetActive(false);
     }
 }
