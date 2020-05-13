@@ -49,7 +49,6 @@ public class EatingFlow : MonoBehaviour
         currentFood = 10;
         currentDrink = 10;
         currentBurp = 10;
-
     }
 
     void Update()
@@ -194,7 +193,7 @@ public class EatingFlow : MonoBehaviour
 
         if (currentBurp > 159)
         {
-            Animation.SetBool("Barf", true);
+            Animation.SetBool("Barf", true); 
         }
         
     }
