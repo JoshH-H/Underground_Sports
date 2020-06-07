@@ -28,5 +28,5 @@ EditorBuildSettings:
     guid: 119cf2d895f0f3642a20e41d4e89fe13
   - enabled: 1
     path: Assets/Scenes/HotDogEatingScene.unity
-    guid: 92ea912cbf406534d8db6a4d40c10622
+    guid: b9d0db04a533c8e468e999ad75da78ad
   m_configObjects: {}
